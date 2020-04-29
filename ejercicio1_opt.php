@@ -27,7 +27,6 @@ if(isset($_POST['nombre']) && isset($_POST['repetir'])){
 
 }
 
-//Eliminacion de codigo repetido-Utilizar bucles
 
 
 ?>
