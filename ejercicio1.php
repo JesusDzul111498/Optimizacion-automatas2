@@ -18,7 +18,7 @@ $nombre = "";
 $repettir = 0;
 
 if(isset($_POST['nombre']) && isset($_POST['repetir'])){
-    $nombre = $_POST['nombre'];
+    $nombre = $_POST['nombre']; //1
     $repettir = $_POST['repetir'];
 }
 

@@ -1,6 +1,6 @@
 <?php
-    $numero_aletorio; //1
-    $numero = rand(5, 15); //2
+    $numero_aletorio; //3
+    $numero = rand(5, 15); //4
 ?>
 
 <!DOCTYPE html>
@@ -22,8 +22,8 @@
     
     if (isset($_POST['numero'])){
         $numero_aletorio = $_POST['numero'];
-        if ($numero == $numero_aletorio){//3
-            echo $numero." acertaste FELICDADES";//4
+        if ($numero == $numero_aletorio){//5
+            echo $numero." acertaste FELICDADES";//6
         }else{
             echo $numero." no acertaste";
         }
