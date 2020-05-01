@@ -15,7 +15,7 @@
     <?php
     if (isset($_POST['palabra'])){
         $palabra = $_POST['palabra'];
-        $salida  = str_replace("a", "*", $palabra);
+        $salida  = strtr($palabra, "a", "*");
         echo $salida;
     }
     
